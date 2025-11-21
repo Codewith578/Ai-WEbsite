@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">MyBrand</div>
+    <ul id="menuList">
+      <li><a href="#">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to My Website</h1>
+    <p>Your modern, smooth & professional UI starts here.</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h1 class="section-title reveal">Our Services</h1>
+    <div class="service-container">
+      <div class="service-box reveal">
+        <h3>Web Development</h3>
+        <p>We build modern, fast, responsive websites with animations.</p>
+      </div>
+      <div class="service-box reveal">
+        <h3>App Development</h3>
+        <p>Android & iOS apps with clean UI & high performance.</p>
+      </div>
+      <div class="service-box reveal">
+        <h3>UI/UX Design</h3>
+        <p>Premium design to make your brand stand out visually.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h1 class="section-title reveal">Portfolio</h1>
+    <div class="portfolio-grid">
+      <div class="portfolio-item reveal"><img src="scre" alt=""><span>Project 1</span></div>
+      <div class="portfolio-item reveal"><span>Project 2</span></div>
+      <div class="portfolio-item reveal"><span>Project 3</span></div>
+      <div class="portfolio-item reveal"><span>Project 4</span></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h1 class="section-title reveal">Contact Us</h1>
+    <form class="contact-form reveal">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
